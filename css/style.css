@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    background-color: white;
+    margin: 0rem 0rem 30rem 0rem;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 2;
+    text-decoration: underline;
+}
+footer{
+    background-color: #666;  
+    padding-top: 5em;
+    padding-bottom: 40px;
+    border-top: 5px solid #77869e;
+}
+
+.footer-box{
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.footer-bottom{
+    border-top: 1px solid #b2b2b2;
+}
+
+.slides{
+    display: flex;
+}
+
+.projetos{
+    background-color: #b2b2b2;
+}
+
+.ada{
+    width: 15rem;
+    height: 15rem;
+    background-color: #77869e;
+} 
+
+.calculadora{
+    
+}

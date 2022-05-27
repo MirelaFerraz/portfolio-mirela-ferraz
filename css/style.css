@@ -1,14 +1,15 @@
 body{
     text-align: center;
     font-family: Open Sans, sans-serif;
-    background-color: white;
+    background-color: #ffffff;
     margin: 0rem 0rem 30rem 0rem;
+    margin-bottom: 0;
 }
 
 ul{
     list-style-type: none;
     line-height: 2;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer{
     background-color: #666;  
@@ -34,19 +35,76 @@ footer .wrapper::after{
 }
 
 .slides{
-    display: flex;
+
+    display: inline-block;
+    border: 2px solid blue; 
+    padding: 10px;
+
 }
 
 .projetos{
-    background-color: #b2b2b2;
+    border: 2px solid yellow;
 }
 
-.ada{
-    width: 15rem;
-    height: 15rem;
-    background-color: #77869e;
-} 
 
+.ada{
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #dde1e7;
+    width: 95%;
+    height: 100%;
+    padding: 10px;
+}
 .calculadora{
-    
+
+    background-color: #dde1e7;
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    padding: 10px;
+}
+
+.card-img-top-1{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #779bda;
+    width: 276px;
+    height: 161px;
+    padding: 10px;
+}
+
+.card-img-top-2{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #779bda;
+    height: 161px;
+    padding: 10px;
+}
+
+.ada , .calculadora , .espaco{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 10px;
+    background-color: #b7caea;
+}
+
+.apresentacao{
+    border: 2px solid red;
+}
+
+.curriculo{
+    border: 2px solid green;
+}
+
+.espaco{
+    width: 200px;
+    height: 100px;
 }

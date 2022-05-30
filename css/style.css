@@ -1,16 +1,41 @@
 body{
     text-align: center;
     font-family: Open Sans, sans-serif;
-    background-color: #ffffff;
-    margin: 0rem 0rem 30rem 0rem;
+    background-color: #05062a;
+    margin: 0 0 30px 0px;
     margin-bottom: 0;
 }
-
-ul{
+header{
+    padding: 0;
+    margin-top: 0;
+    
+}
+#menu-h ul{
     list-style-type: none;
     line-height: 2;
     text-decoration: none;
+    padding: 0;
+    background-color: #101c30;
+    margin: 0;
+    
 }
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    color: rgb(7, 93, 213);
+}
+
 footer{
     background-color: #666;  
     padding-top: 5em;
@@ -39,11 +64,13 @@ footer .wrapper::after{
     display: inline-block;
     border: 2px solid blue; 
     padding: 10px;
+    background-color: #05062a;
 
 }
 
 .projetos{
     border: 2px solid yellow;
+    background-color: #05062a;
 }
 
 
@@ -67,7 +94,7 @@ footer .wrapper::after{
 .card-img-top-1{
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: #779bda;
+    background-color: #bfc3c9;
     width: 276px;
     height: 161px;
     padding: 10px;
@@ -76,7 +103,7 @@ footer .wrapper::after{
 .card-img-top-2{
     box-sizing: border-box;
     border-radius: 10px;
-    background-color: #779bda;
+    background-color: #bfc3c9;
     height: 161px;
     padding: 10px;
 }
@@ -89,22 +116,29 @@ a{
     text-decoration: none;
     border-radius: 10px;
     cursor: pointer;
+    color: #bfc3c9;
 }
 
 button{
     border-radius: 10px;
-    background-color: #b7caea;
+    background-color: #232d3d;
 }
 
 .apresentacao{
     border: 2px solid red;
+    color: #bfc3c9;
 }
 
 .curriculo{
     border: 2px solid green;
+    color: #bfc3c9
 }
 
 .espaco{
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
+}
+
+h1, h2, h3{
+    color:  #bfc3c9;
 }

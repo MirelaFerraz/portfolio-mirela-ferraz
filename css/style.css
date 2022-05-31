@@ -1,21 +1,21 @@
 body{
     text-align: center;
     font-family: Open Sans, sans-serif;
-    background-color: #05062a;
     margin: 0 0 30px 0px;
     margin-bottom: 0;
+    background-image: linear-gradient(to right, #658d51, rgb(58, 86, 32));
 }
 header{
     padding: 0;
     margin-top: 0;
-    
+    text-align: right;
 }
 #menu-h ul{
     list-style-type: none;
     line-height: 2;
     text-decoration: none;
     padding: 0;
-    background-color: #101c30;
+    background-color: #000103;
     margin: 0;
     
 }
@@ -43,6 +43,13 @@ footer{
     border-top: 5px solid #77869e;
 }
 
+#footer{
+    text-align: left;
+    margin-left: 250px;
+    background-color: #666;
+    color: #b2b2b2;
+}
+
 .footer-box{
     width: 31%;
     padding: 1%;
@@ -60,26 +67,16 @@ footer .wrapper::after{
 }
 
 .slides{
-
     display: inline-block;
-    border: 2px solid blue; 
     padding: 10px;
-    background-color: #05062a;
-
 }
-
-.projetos{
-    border: 2px solid yellow;
-    background-color: #05062a;
-}
-
 
 .ada{
     margin: 0 auto;
     border-radius: 10px;
     background-color: #dde1e7;
     width: 95%;
-    height: 100%;
+    height: 376px;
     padding: 10px;
 }
 .calculadora{
@@ -87,7 +84,7 @@ footer .wrapper::after{
     background-color: #dde1e7;
     border-radius: 10px;
     width: 95%;
-    height: 100%;
+    height: 376px;
     padding: 10px;
 }
 
@@ -99,7 +96,12 @@ footer .wrapper::after{
     height: 161px;
     padding: 10px;
 }
-
+.card-text-1{
+    height: 93px;
+}
+.card-body-1{
+    height: 170px;
+}
 .card-img-top-2{
     box-sizing: border-box;
     border-radius: 10px;
@@ -125,20 +127,51 @@ button{
 }
 
 .apresentacao{
-    border: 2px solid red;
     color: #bfc3c9;
 }
-
+.espaco2{
+    height: 70px;
+}
 .curriculo{
-    border: 2px solid green;
-    color: #bfc3c9
+    color: #bfc3c9;
+}
+#h3-curriculo{
+    background-color: rgb(206, 220, 195);
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(16, 28, 1);
+    border-radius: 10px;
+}
+.foto-curriculo{
+    width: 45%;
+    height: 60%;
+    border-radius: 10px;
 }
 
 .espaco{
-    width: 300px;
+    width: 152px;
     height: 200px;
 }
 
 h1, h2, h3{
     color:  #bfc3c9;
+}
+h3{
+    background-color: rgb(206, 220, 195);
+    margin-left: 25%;
+    margin-right: 25%;
+    color: rgb(16, 28, 1);
+    border-radius: 10px;
+}
+
+#p-curriculo{
+    color: #fff;
+}
+
+#drive{
+    color: black;
+    background-color: #dcd6d6;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
 }
